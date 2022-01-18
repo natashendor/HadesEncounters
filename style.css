@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.logo {
+    width: 300px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+#About {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: center;
+}
+.Zagreus {
+    display: flex;
+    justify-content: center;
+}
+.Zag-img {
+    width: 300px;
+}
