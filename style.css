@@ -57,9 +57,9 @@ a:hover {
     flex-wrap: wrap;
     gap: 70px;
     padding: 20px;
+    text-align: center;
 }
-.info,
-.title {
+.info {
     display: flex;
     flex-direction: column;
     max-width: 200px;
@@ -69,4 +69,32 @@ a:hover {
     max-width: 100px;
     border-radius: 50%;
 }
-.blurb
+.Quote-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 775px;
+}
+.quote {
+    display: flex;
+    justify-content: flex-start;
+}
+.Narrator {
+    display: flex;
+    justify-content: flex-end;
+}
+.long-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.lefty {
+    display: flex;
+    flex-direction: column;
+}
+.righty {
+    display: flex;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
