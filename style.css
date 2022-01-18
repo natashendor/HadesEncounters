@@ -72,7 +72,7 @@ a:hover {
 .Quote-section {
     display: flex;
     flex-direction: column;
-    margin: 0px 775px;
+    margin: 0px 600px;
 }
 .quote {
     display: flex;
