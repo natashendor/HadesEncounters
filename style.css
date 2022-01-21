@@ -1,7 +1,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    margin: 10px 300px;
+    padding: 10px 300px;
+    background-color: #202124;
 }
 .left {
     display: flex;
@@ -18,6 +19,7 @@ header {
 }
 a {
     text-decoration: none;
+    color: white;
 }
 a:hover {
     color: red;
@@ -25,13 +27,15 @@ a:hover {
 #About {
     display: flex;
     justify-content: space-between;
-    margin: 30px 300px;
+    padding: 30px 300px;
+    background-color: #202124;;
 }
 .text {
     display: flex;
     flex-direction: column;
     width: 600px;
     justify-content: center;
+    color: white;
 }
 .Zagreus {
     display: flex;
@@ -43,7 +47,7 @@ a:hover {
 #Encounters {
     display: flex;
     flex-direction: column;
-    margin: 10px 300px;
+    padding: 10px 300px;
 }
 .encounter-text {
     display: flex;
@@ -72,7 +76,15 @@ a:hover {
 .Quote-section {
     display: flex;
     flex-direction: column;
-    margin: 0px 600px;
+    align-items: center;
+    background-color: lightgrey;
+}
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin: 50px;
 }
 .quote {
     display: flex;
@@ -82,9 +94,18 @@ a:hover {
     display: flex;
     justify-content: flex-end;
 }
+#Website {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    color: white;
+}
 .long-box {
     display: flex;
     justify-content: space-evenly;
+    background-color: #7a2525;
+    width: 1000px;
+    border-radius: 10px;
 }
 .lefty {
     display: flex;
@@ -97,4 +118,6 @@ a:hover {
 footer {
     display: flex;
     justify-content: center;
+    background-color: #202124;
+    color: white;
 }
